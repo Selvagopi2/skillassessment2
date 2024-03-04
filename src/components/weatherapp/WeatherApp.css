@@ -1,0 +1,50 @@
+/* WeatherApp.css */
+.App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .FormGroup {
+    margin-bottom: 10px;
+  }
+  
+  .DropdownToggle {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .App {
+      padding: 40px;
+    }
+  
+    input[type="text"] {
+      width: calc(100% - 80px);
+    }
+  
+    button {
+      width: 80px;
+    }
+  
+    .DropdownToggle {
+      width: calc(100% - 80px);
+    }
+  }
+  
